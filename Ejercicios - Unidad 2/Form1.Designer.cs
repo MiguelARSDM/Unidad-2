@@ -48,161 +48,161 @@
             // 
             // button1
             // 
-            button1.Location = new Point(12, 30);
+            button1.Location = new Point(12, 40);
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 0;
-            button1.Text = "button1";
+            button1.Text = "Ejercicio 1";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(12, 107);
+            button2.Location = new Point(12, 136);
             button2.Name = "button2";
             button2.Size = new Size(94, 29);
             button2.TabIndex = 1;
-            button2.Text = "button2";
+            button2.Text = "Ejercicio 2";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
             // button3
             // 
-            button3.Location = new Point(12, 194);
+            button3.Location = new Point(12, 243);
             button3.Name = "button3";
             button3.Size = new Size(94, 29);
             button3.TabIndex = 2;
-            button3.Text = "button3";
+            button3.Text = "Ejercicio 3";
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
             // button4
             // 
-            button4.Location = new Point(12, 267);
+            button4.Location = new Point(12, 346);
             button4.Name = "button4";
             button4.Size = new Size(94, 29);
             button4.TabIndex = 3;
-            button4.Text = "button4";
+            button4.Text = "Ejercicio 4";
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
             // button5
             // 
-            button5.Location = new Point(12, 346);
+            button5.Location = new Point(186, 40);
             button5.Name = "button5";
             button5.Size = new Size(94, 29);
             button5.TabIndex = 4;
-            button5.Text = "button5";
+            button5.Text = "Ejercicio 5";
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
             // button6
             // 
-            button6.Location = new Point(143, 30);
+            button6.Location = new Point(186, 136);
             button6.Name = "button6";
             button6.Size = new Size(94, 29);
             button6.TabIndex = 6;
-            button6.Text = "button6";
+            button6.Text = "Ejercicio 6";
             button6.UseVisualStyleBackColor = true;
             button6.Click += button6_Click;
             // 
             // button7
             // 
-            button7.Location = new Point(143, 97);
+            button7.Location = new Point(186, 243);
             button7.Name = "button7";
             button7.Size = new Size(94, 29);
             button7.TabIndex = 7;
-            button7.Text = "button7";
+            button7.Text = "Ejercicio 7";
             button7.UseVisualStyleBackColor = true;
             button7.Click += button7_Click;
             // 
             // button8
             // 
-            button8.Location = new Point(143, 194);
+            button8.Location = new Point(186, 346);
             button8.Name = "button8";
             button8.Size = new Size(94, 29);
             button8.TabIndex = 8;
-            button8.Text = "button8";
+            button8.Text = "Ejercicio 8";
             button8.UseVisualStyleBackColor = true;
             button8.Click += button8_Click;
             // 
             // button9
             // 
-            button9.Location = new Point(143, 267);
+            button9.Location = new Point(485, 40);
             button9.Name = "button9";
             button9.Size = new Size(94, 29);
             button9.TabIndex = 9;
-            button9.Text = "button9";
+            button9.Text = "Ejercicio 9";
             button9.UseVisualStyleBackColor = true;
             button9.Click += button9_Click;
             // 
             // button10
             // 
-            button10.Location = new Point(143, 346);
+            button10.Location = new Point(485, 109);
             button10.Name = "button10";
             button10.Size = new Size(94, 29);
             button10.TabIndex = 10;
-            button10.Text = "button10";
+            button10.Text = "Ejercicio 10";
             button10.UseVisualStyleBackColor = true;
             button10.Click += button10_Click;
             // 
             // button11
             // 
-            button11.Location = new Point(302, 30);
+            button11.Location = new Point(485, 243);
             button11.Name = "button11";
             button11.Size = new Size(94, 29);
             button11.TabIndex = 11;
-            button11.Text = "button11";
+            button11.Text = "Ejercicio 11";
             button11.UseVisualStyleBackColor = true;
             button11.Click += button11_Click;
             // 
             // button12
             // 
-            button12.Location = new Point(302, 87);
+            button12.Location = new Point(485, 346);
             button12.Name = "button12";
             button12.Size = new Size(94, 29);
             button12.TabIndex = 12;
-            button12.Text = "button12";
+            button12.Text = "Ejercicio 12";
             button12.UseVisualStyleBackColor = true;
             button12.Click += button12_Click;
             // 
             // button13
             // 
-            button13.Location = new Point(302, 184);
+            button13.Location = new Point(670, 40);
             button13.Name = "button13";
             button13.Size = new Size(94, 29);
             button13.TabIndex = 13;
-            button13.Text = "button13";
+            button13.Text = "Ejercicio 13";
             button13.UseVisualStyleBackColor = true;
             button13.Click += button13_Click;
             // 
             // button14
             // 
-            button14.Location = new Point(302, 267);
+            button14.Location = new Point(670, 136);
             button14.Name = "button14";
             button14.Size = new Size(94, 29);
             button14.TabIndex = 14;
-            button14.Text = "button14";
+            button14.Text = "Ejercicio 14";
             button14.UseVisualStyleBackColor = true;
             button14.Click += button14_Click;
             // 
             // button15
             // 
-            button15.Location = new Point(302, 346);
+            button15.Location = new Point(670, 243);
             button15.Name = "button15";
             button15.Size = new Size(94, 29);
             button15.TabIndex = 15;
-            button15.Text = "button15";
+            button15.Text = "Ejercicio 15";
             button15.UseVisualStyleBackColor = true;
             button15.Click += button15_Click;
             // 
             // button16
             // 
-            button16.Location = new Point(443, 30);
+            button16.Location = new Point(670, 346);
             button16.Name = "button16";
             button16.Size = new Size(94, 29);
             button16.TabIndex = 16;
-            button16.Text = "button16";
+            button16.Text = "Ejercicio 16";
             button16.UseVisualStyleBackColor = true;
             button16.Click += button16_Click;
             // 
