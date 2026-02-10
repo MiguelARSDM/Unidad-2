@@ -1,4 +1,4 @@
-namespace Ejerrcicios___Unidad_2
+namespace Ejercicios___Unidad_2
 {
     internal static class Program
     {
