@@ -28,12 +28,62 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form14";
+            components = new System.ComponentModel.Container();
+            progressBar1 = new ProgressBar();
+            buttonIniciar = new Button();
+            buttonDetener = new Button();
+            timer1 = new System.Windows.Forms.Timer(components);
+            SuspendLayout();
+            // 
+            // progressBar1
+            // 
+            progressBar1.Location = new Point(41, 149);
+            progressBar1.Name = "progressBar1";
+            progressBar1.Size = new Size(733, 29);
+            progressBar1.TabIndex = 0;
+            // 
+            // buttonIniciar
+            // 
+            buttonIniciar.Location = new Point(213, 266);
+            buttonIniciar.Name = "buttonIniciar";
+            buttonIniciar.Size = new Size(94, 29);
+            buttonIniciar.TabIndex = 1;
+            buttonIniciar.Text = "Iniciar";
+            buttonIniciar.UseVisualStyleBackColor = true;
+            buttonIniciar.Click += buttonIniciar_Click;
+            // 
+            // buttonDetener
+            // 
+            buttonDetener.Location = new Point(472, 266);
+            buttonDetener.Name = "buttonDetener";
+            buttonDetener.Size = new Size(94, 29);
+            buttonDetener.TabIndex = 2;
+            buttonDetener.Text = "Detener";
+            buttonDetener.UseVisualStyleBackColor = true;
+            buttonDetener.Click += buttonDetener_Click;
+            // 
+            // timer1
+            // 
+            timer1.Tick += timer1_Tick;
+            // 
+            // Form14
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(buttonDetener);
+            Controls.Add(buttonIniciar);
+            Controls.Add(progressBar1);
+            Name = "Form14";
+            Text = "Form14";
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private ProgressBar progressBar1;
+        private Button buttonIniciar;
+        private Button buttonDetener;
+        private System.Windows.Forms.Timer timer1;
     }
 }
